@@ -1,0 +1,16 @@
+<section id="modal">
+    <div id="card">
+
+        <div id="head">
+            <h2>Confirmation</h2>
+            <a id="close" href="/"><i class="bi bi-x"></i></a>
+        </div>
+        
+        <hr>
+        <p>Do you really wanna delete the task: <%= task.task %>? </p>
+        <div id="btns">
+            <a id="btnNot" href="/">No</a>
+            <a id="btnYes" href="/deleteOne/<%= task._id %>">Yes</a>
+        </div>
+    </div>
+</section>
